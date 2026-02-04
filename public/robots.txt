@@ -1,0 +1,6 @@
+# robots.txt for FacturSimple
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://factursimple.fr/sitemap.xml
