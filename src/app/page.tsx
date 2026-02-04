@@ -1,5 +1,9 @@
 import { HeroSection } from "./_components/hero-section"
+import { TrustBadges } from "./_components/trust-badges"
+import { HowItWorksSection } from "./_components/how-it-works"
 import { FeaturesSection } from "./_components/features-section"
+import { TestimonialsSection } from "./_components/testimonials-section"
+import { PricingCalculator } from "./_components/pricing-calculator"
 import { PricingSection } from "./_components/pricing-section"
 import { FAQSection } from "./_components/faq-section"
 import { CTASection } from "./_components/cta-section"
@@ -12,6 +16,9 @@ export default function Home() {
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-primary">FacturSimple</div>
           <div className="hidden space-x-8 text-sm text-muted-foreground md:flex">
+            <a href="#comment-ca-marche" className="hover:text-primary">
+              Comment ça marche
+            </a>
             <a href="#fonctionnalites" className="hover:text-primary">
               Fonctionnalités
             </a>
@@ -26,6 +33,9 @@ export default function Home() {
       </nav>
 
       <HeroSection />
+      
+      {/* Trust badges below hero */}
+      <TrustBadges />
 
       {/* Problem Section */}
       <section className="bg-muted/50 py-16">
@@ -74,7 +84,19 @@ export default function Home() {
         </div>
       </section>
 
+      {/* How it works - 3 steps */}
+      <div id="comment-ca-marche">
+        <HowItWorksSection />
+      </div>
+
       <FeaturesSection />
+      
+      {/* Testimonials */}
+      <TestimonialsSection />
+      
+      {/* Pricing Calculator */}
+      <PricingCalculator />
+      
       <PricingSection />
       <FAQSection />
       <CTASection />
@@ -86,7 +108,12 @@ export default function Home() {
             <div className="mb-4 text-xl font-bold text-background md:mb-0">
               FacturSimple
             </div>
-            <div className="text-sm">© 2026 FacturSimple. Conçu en France 🇫🇷</div>
+            <div className="flex gap-6 text-sm">
+              <a href="/blog" className="hover:text-background">Blog</a>
+              <a href="#" className="hover:text-background">Mentions légales</a>
+              <a href="#" className="hover:text-background">CGV</a>
+            </div>
+            <div className="mt-4 text-sm md:mt-0">© 2026 FacturSimple. Conçu en France 🇫🇷</div>
           </div>
         </div>
       </footer>
