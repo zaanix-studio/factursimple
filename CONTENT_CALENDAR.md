@@ -61,11 +61,11 @@
   - Actual: ~2300 words (target was 1500)
   - Focus: Practical template, conversion to invoice, checklist
 
-### Friday, Feb 15
-- [ ] **Article 8**: Délais de Paiement Facture : Vos Droits et Recours
+### Friday, Feb 15 ✅ (Done Early: Feb 4)
+- [x] **Article 8**: Délais de Paiement Facture : Vos Droits et Recours
   - Keywords: délai paiement facture, retard paiement client
-  - Target: 1600 words
-  - Focus: Legal delays, late fees, collection
+  - Actual: ~2000 words (target was 1600)
+  - Focus: Legal delays (30/45/60 days), pénalités (12.13%), indemnité 40€, relance strategy, recouvrement procedures
 
 ### Sunday, Feb 17
 - [ ] **Optimization Pass**: Review all articles for internal linking

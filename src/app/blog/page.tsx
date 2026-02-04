@@ -8,6 +8,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'delais-paiement-facture',
+    title: 'Délais de Paiement Facture 2026 : Vos Droits et Recours',
+    excerpt: 'Un client qui ne paie pas ? Découvrez vos droits : délais légaux, pénalités de retard, indemnité forfaitaire, stratégies de relance et procédures de recouvrement.',
+    date: '2026-02-04',
+    readTime: '8 min',
+    category: 'Guide Pratique',
+  },
+  {
     slug: 'devis-auto-entrepreneur',
     title: 'Créer un Devis Conforme Auto-Entrepreneur 2026 : Guide Complet',
     excerpt: 'Comment créer un devis professionnel et conforme en auto-entrepreneur. Mentions obligatoires, modèle gratuit et bonnes pratiques.',
