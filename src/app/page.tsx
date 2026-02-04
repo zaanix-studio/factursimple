@@ -20,6 +20,9 @@ export default function Home() {
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-primary">FacturSimple</div>
           <div className="hidden space-x-8 text-sm text-muted-foreground md:flex">
+            <a href="/generateur-facture" className="text-primary font-medium hover:text-primary/80">
+              🧾 Générateur Gratuit
+            </a>
             <a href="#comment-ca-marche" className="hover:text-primary">
               Comment ça marche
             </a>
@@ -40,6 +43,31 @@ export default function Home() {
       
       {/* Trust badges below hero */}
       <TrustBadges />
+
+      {/* Free Tool Banner */}
+      <section className="bg-gradient-to-r from-blue-600 to-blue-700 py-8">
+        <div className="container mx-auto px-6">
+          <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
+            <div className="text-center md:text-left">
+              <h3 className="text-xl font-bold text-white">
+                🧾 Générateur de Facture Gratuit
+              </h3>
+              <p className="text-blue-100 mt-1">
+                Créez vos factures conformes 2026 en quelques clics. 100% gratuit, sans compte.
+              </p>
+            </div>
+            <a 
+              href="/generateur-facture"
+              className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 font-semibold text-blue-600 transition-colors hover:bg-blue-50 whitespace-nowrap"
+            >
+              Créer une facture
+              <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Problem Section */}
       <section className="bg-muted/50 py-16">
@@ -113,6 +141,7 @@ export default function Home() {
               FacturSimple
             </div>
             <div className="flex gap-6 text-sm">
+              <a href="/generateur-facture" className="hover:text-background">Générateur Gratuit</a>
               <a href="/blog" className="hover:text-background">Blog</a>
               <a href="#" className="hover:text-background">Mentions légales</a>
               <a href="#" className="hover:text-background">CGV</a>
