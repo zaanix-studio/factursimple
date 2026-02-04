@@ -8,12 +8,36 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'facturation-electronique-auto-entrepreneur',
+    title: 'Facturation Électronique Auto-Entrepreneur : Le Guide Pratique 2026',
+    excerpt: 'Vous êtes auto-entrepreneur ? Découvrez toutes vos obligations pour la facturation électronique : calendrier, solutions abordables, et checklist de préparation.',
+    date: '2026-02-04',
+    readTime: '10 min',
+    category: 'Guide',
+  },
+  {
+    slug: 'reforme-facturation-2026',
+    title: 'Réforme Facturation 2026 : Tout Ce Qui Change pour les Entreprises',
+    excerpt: 'La réforme expliquée simplement : calendrier officiel, obligations, sanctions et comment vous préparer. Guide complet pour TPE et micro-entreprises.',
+    date: '2026-02-04',
+    readTime: '12 min',
+    category: 'Réglementation',
+  },
+  {
+    slug: 'logiciel-facture-micro-entreprise',
+    title: 'Logiciel de Facture pour Micro-Entreprise : Comment Bien Choisir en 2026',
+    excerpt: 'Critères essentiels, comparatif des solutions et conseils pratiques pour choisir le bon logiciel de facturation sans se ruiner.',
+    date: '2026-02-04',
+    readTime: '11 min',
+    category: 'Guide Pratique',
+  },
+  {
     slug: 'ppf-vs-pdp',
     title: 'PPF vs PDP : Quelle Plateforme Choisir pour Votre Facturation Électronique ?',
     excerpt: 'Portail Public de Facturation ou Plateforme de Dématérialisation Partenaire ? On vous explique les différences et comment faire le bon choix.',
     date: '2026-02-04',
     readTime: '9 min',
-    category: 'Guide',
+    category: 'Comparatif',
   },
   {
     slug: 'faq-facture-electronique',

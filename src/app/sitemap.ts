@@ -16,6 +16,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    // New SEO-optimized articles (Feb 4, 2026)
+    {
+      url: `${baseUrl}/blog/facturation-electronique-auto-entrepreneur`,
+      lastModified: new Date('2026-02-04'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/reforme-facturation-2026`,
+      lastModified: new Date('2026-02-04'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/logiciel-facture-micro-entreprise`,
+      lastModified: new Date('2026-02-04'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    // Existing articles
     {
       url: `${baseUrl}/blog/guide-facture-electronique-2026`,
       lastModified: new Date('2026-02-03'),
