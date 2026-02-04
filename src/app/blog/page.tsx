@@ -8,6 +8,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'ppf-vs-pdp',
+    title: 'PPF vs PDP : Quelle Plateforme Choisir pour Votre Facturation Électronique ?',
+    excerpt: 'Portail Public de Facturation ou Plateforme de Dématérialisation Partenaire ? On vous explique les différences et comment faire le bon choix.',
+    date: '2026-02-04',
+    readTime: '9 min',
+    category: 'Guide',
+  },
+  {
     slug: 'faq-facture-electronique',
     title: 'FAQ Facture Électronique 2026 : Toutes les Réponses à Vos Questions',
     excerpt: 'Suis-je concerné ? C\'est quoi Factur-X ? Combien ça coûte ? Réponses claires aux 10 questions les plus fréquentes des micro-entrepreneurs.',
