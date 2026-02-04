@@ -8,6 +8,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'devis-auto-entrepreneur',
+    title: 'Créer un Devis Conforme Auto-Entrepreneur 2026 : Guide Complet',
+    excerpt: 'Comment créer un devis professionnel et conforme en auto-entrepreneur. Mentions obligatoires, modèle gratuit et bonnes pratiques.',
+    date: '2026-02-04',
+    readTime: '8 min',
+    category: 'Guide Pratique',
+  },
+  {
     slug: 'tva-auto-entrepreneur-2026',
     title: 'TVA Auto-Entrepreneur 2026 : Seuils, Franchise et Facturation Électronique',
     excerpt: 'Guide complet sur la TVA pour les auto-entrepreneurs : seuils de franchise, passage à la TVA, mentions obligatoires et lien avec la réforme e-invoicing.',

@@ -55,11 +55,11 @@
   - Actual: ~2200 words (target was 2000)
   - Focus: TVA thresholds, franchise rules, interaction with e-invoicing reform
 
-### Wednesday, Feb 13
-- [ ] **Article 7**: Créer un Devis Conforme en Auto-Entrepreneur
+### Wednesday, Feb 13 ✅ (Done Early: Feb 4)
+- [x] **Article 7**: Créer un Devis Conforme Auto-Entrepreneur 2026
   - Keywords: devis auto-entrepreneur, modèle devis micro-entreprise
-  - Target: 1500 words
-  - Focus: Practical template, conversion to invoice
+  - Actual: ~2300 words (target was 1500)
+  - Focus: Practical template, conversion to invoice, checklist
 
 ### Friday, Feb 15
 - [ ] **Article 8**: Délais de Paiement Facture : Vos Droits et Recours
