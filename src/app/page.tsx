@@ -29,6 +29,9 @@ export default function Home() {
             <a href="/blog" className="hover:text-primary">
               📚 Blog
             </a>
+            <a href="/checklist-2026" className="text-amber-600 font-medium hover:text-amber-700">
+              ✅ Checklist 2026
+            </a>
             <a href="#comment-ca-marche" className="hover:text-primary">
               Comment ça marche
             </a>
@@ -117,12 +120,21 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-8 text-center">
+            <div className="mt-8 text-center space-y-4">
               <p className="text-muted-foreground">
                 Pennylane coûte{" "}
                 <strong className="text-destructive">99€/mois</strong>. Trop cher
                 pour vos besoins simples ?
               </p>
+              <a 
+                href="/checklist-2026"
+                className="inline-flex items-center gap-2 rounded-lg bg-amber-100 dark:bg-amber-900/30 text-amber-800 dark:text-amber-200 px-6 py-3 font-semibold transition-colors hover:bg-amber-200 dark:hover:bg-amber-900/50"
+              >
+                ✅ Testez votre Préparation 2026
+                <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
             </div>
           </div>
         </div>
@@ -155,6 +167,7 @@ export default function Home() {
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <a href="/generateur-facture" className="hover:text-background">Factures</a>
               <a href="/generateur-devis" className="hover:text-background">Devis</a>
+              <a href="/checklist-2026" className="hover:text-background">Checklist 2026</a>
               <a href="/blog" className="hover:text-background">Blog</a>
               <a href="#" className="hover:text-background">Mentions légales</a>
               <a href="#" className="hover:text-background">CGV</a>
