@@ -7,10 +7,14 @@ import { PricingCalculator } from "./_components/pricing-calculator"
 import { PricingSection } from "./_components/pricing-section"
 import { FAQSection } from "./_components/faq-section"
 import { CTASection } from "./_components/cta-section"
+import { OrganizationSchema, SoftwareSchema } from "./blog/_components/article-schema"
 
 export default function Home() {
   return (
     <main className="min-h-screen">
+      {/* Structured Data for SEO */}
+      <OrganizationSchema />
+      <SoftwareSchema />
       {/* Navigation */}
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
