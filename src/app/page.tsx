@@ -26,11 +26,11 @@ export default function Home() {
             <a href="/generateur-devis" className="text-primary font-medium hover:text-primary/80">
               📋 Devis
             </a>
+            <a href="/blog" className="hover:text-primary">
+              📚 Blog
+            </a>
             <a href="#comment-ca-marche" className="hover:text-primary">
               Comment ça marche
-            </a>
-            <a href="#fonctionnalites" className="hover:text-primary">
-              Fonctionnalités
             </a>
             <a href="#tarifs" className="hover:text-primary">
               Tarifs
