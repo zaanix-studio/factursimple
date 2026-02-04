@@ -8,6 +8,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'comparatif-logiciels-facturation',
+    title: 'Comparatif Logiciels de Facturation 2026 : Lequel Choisir ?',
+    excerpt: 'Pennylane, Tiime, Indy, Freebe... On compare tout pour vous aider à choisir le bon outil avant septembre 2026.',
+    date: '2026-02-04',
+    readTime: '10 min',
+    category: 'Comparatif',
+  },
+  {
     slug: 'guide-facture-electronique-2026',
     title: 'Facture Électronique 2026 : Le Guide Complet pour les Micro-Entrepreneurs',
     excerpt: 'Tout ce que vous devez savoir sur la réforme de la facturation électronique. Calendrier, obligations, et comment vous préparer.',
