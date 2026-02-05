@@ -13,10 +13,12 @@ Validate FacturSimple with real French auto-entrepreneurs before building more f
 
 #### 1. **ae.fr** - Auto-Entrepreneur Forum
 - **URL:** https://ae.fr/
-- **Type:** Dedicated forum
+- **Type:** Dedicated forum (Discourse-based)
 - **Status:** ⏳ To join
 - **Why:** THE main French AE forum. Perfect for asking about e-invoicing pain points.
-- **Action:** Create account, introduce ourselves, ask validation questions
+- **Key insight (Feb 2026):** No threads specifically about 2026 e-invoicing reform yet! This is an OPPORTUNITY to be first with valuable content.
+- **Active thread found:** https://ae.fr/t/quel-logiciel-devis-facture-en-ligne/4417 (April 2024) - people asking for software recommendations
+- **Action:** Create account, post helpful 2026 reform summary, become the "expert" on this topic before competitors
 
 #### 2. **Discord Entrepreneurs Francophones**
 - **URL:** https://disboard.org/fr/server/574222529330282526
@@ -54,9 +56,29 @@ Validate FacturSimple with real French auto-entrepreneurs before building more f
 - **Key insight:** One commenter mentions Chorus Pro might be free - need to address this in our messaging
 - **Action:** Reply with helpful info, mention free tools exist (us!)
 
+### Additional Discord Servers (from Disboard)
+
+#### 6. **DISBOARD Entrepreneur Tag**
+- **URL:** https://disboard.org/fr/servers/tag/entrepreneur
+- **Type:** Discord server directory
+- **Status:** ⏳ To explore
+- **Why:** Multiple French entrepreneur Discord servers listed
+- **Notable servers found:**
+  - Business/coaching servers with entrepreneurship focus
+  - Free coaching + community access
+- **Action:** Browse and join 2-3 most relevant ones
+
+#### 7. **DISBOARD Business Tag**
+- **URL:** https://disboard.org/fr/servers/tag/business
+- **Type:** Discord server directory
+- **Why:** Another category with French business communities
+- **Action:** Cross-reference with entrepreneur tag
+
+---
+
 ### Medium Priority (General entrepreneur communities)
 
-#### 5. **Facebook Groups**
+#### 8. **Facebook Groups**
 - **Groups to find:**
   - "Auto-entrepreneurs et Micro-entrepreneurs"
   - "Auto-entrepreneurs France"
