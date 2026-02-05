@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { promises as fs } from 'fs'
-import path from 'path'
 
-const WAITLIST_FILE = path.join(process.cwd(), 'waitlist.json')
+// Upstash Redis REST API - No SDK needed
+const UPSTASH_REDIS_REST_URL = process.env.UPSTASH_REDIS_REST_URL
+const UPSTASH_REDIS_REST_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN
 
 interface WaitlistEntry {
   email: string
@@ -10,17 +10,26 @@ interface WaitlistEntry {
   source?: string
 }
 
-async function getWaitlist(): Promise<WaitlistEntry[]> {
-  try {
-    const data = await fs.readFile(WAITLIST_FILE, 'utf-8')
-    return JSON.parse(data)
-  } catch {
-    return []
+async function redisCommand(command: string[]): Promise<unknown> {
+  if (!UPSTASH_REDIS_REST_URL || !UPSTASH_REDIS_REST_TOKEN) {
+    throw new Error('Redis not configured')
   }
-}
 
-async function saveWaitlist(entries: WaitlistEntry[]): Promise<void> {
-  await fs.writeFile(WAITLIST_FILE, JSON.stringify(entries, null, 2))
+  const response = await fetch(`${UPSTASH_REDIS_REST_URL}`, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${UPSTASH_REDIS_REST_TOKEN}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(command),
+  })
+
+  if (!response.ok) {
+    throw new Error(`Redis error: ${response.status}`)
+  }
+
+  const data = await response.json()
+  return data.result
 }
 
 export async function POST(request: NextRequest) {
@@ -35,27 +44,52 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const waitlist = await getWaitlist()
+    const normalizedEmail = email.toLowerCase().trim()
     
-    // Check for duplicates
-    if (waitlist.some(entry => entry.email.toLowerCase() === email.toLowerCase())) {
+    // Check if Redis is configured
+    if (!UPSTASH_REDIS_REST_URL || !UPSTASH_REDIS_REST_TOKEN) {
+      // Fallback: just log and return success (better than crashing)
+      console.log(`[WAITLIST] New signup (Redis not configured): ${normalizedEmail}`)
+      return NextResponse.json(
+        { message: 'Inscrit avec succès (mode démo)', count: -1 },
+        { status: 201 }
+      )
+    }
+
+    // Check for duplicates using a Set
+    const isMember = await redisCommand(['SISMEMBER', 'waitlist:emails', normalizedEmail])
+    
+    if (isMember === 1) {
       return NextResponse.json(
         { message: 'Déjà inscrit', alreadyExists: true },
         { status: 200 }
       )
     }
 
-    // Add new entry
-    waitlist.push({
-      email: email.toLowerCase().trim(),
+    // Add to Set (for deduplication)
+    await redisCommand(['SADD', 'waitlist:emails', normalizedEmail])
+
+    // Add full entry to a sorted set (for ordering by timestamp)
+    const entry: WaitlistEntry = {
+      email: normalizedEmail,
       timestamp: new Date().toISOString(),
       source: source || 'landing-page'
-    })
+    }
+    
+    await redisCommand([
+      'ZADD', 
+      'waitlist:entries', 
+      Date.now().toString(), 
+      JSON.stringify(entry)
+    ])
 
-    await saveWaitlist(waitlist)
+    // Get count
+    const count = await redisCommand(['SCARD', 'waitlist:emails']) as number
+
+    console.log(`[WAITLIST] New signup: ${normalizedEmail} (total: ${count})`)
 
     return NextResponse.json(
-      { message: 'Inscrit avec succès', count: waitlist.length },
+      { message: 'Inscrit avec succès', count },
       { status: 201 }
     )
   } catch (error) {
@@ -69,12 +103,18 @@ export async function POST(request: NextRequest) {
 
 export async function GET() {
   try {
-    const waitlist = await getWaitlist()
+    if (!UPSTASH_REDIS_REST_URL || !UPSTASH_REDIS_REST_TOKEN) {
+      return NextResponse.json({ count: 0, configured: false })
+    }
+
+    const count = await redisCommand(['SCARD', 'waitlist:emails']) as number
+    
     return NextResponse.json({
-      count: waitlist.length,
-      // Don't expose emails in GET, just count
+      count,
+      configured: true
     })
-  } catch {
-    return NextResponse.json({ count: 0 })
+  } catch (error) {
+    console.error('Waitlist GET error:', error)
+    return NextResponse.json({ count: 0, error: true })
   }
 }
