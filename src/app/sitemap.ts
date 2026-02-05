@@ -162,5 +162,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/blog/reformes-auto-entrepreneur-2026`,
+      lastModified: new Date('2026-02-05'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
   ]
 }

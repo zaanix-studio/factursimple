@@ -11,6 +11,15 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'reformes-auto-entrepreneur-2026',
+    title: 'Toutes les Réformes Auto-Entrepreneur 2026 : Le Guide Complet',
+    excerpt: 'Facturation électronique, hausse des cotisations, formation CPF, REP... Tous les changements pour les micro-entrepreneurs en 2026 et comment vous y préparer.',
+    date: '2026-02-05',
+    readTime: '12 min',
+    category: 'Guide Complet',
+    featured: true,
+  },
+  {
     slug: 'calendrier-reforme-facture-electronique-2026',
     title: 'Calendrier Facture Électronique 2026 : Toutes les Dates Clés',
     excerpt: 'Calendrier complet de la réforme facturation électronique 2026-2027. Dates obligatoires pour auto-entrepreneurs, micro-entreprises, PME. Ne manquez aucune échéance.',
