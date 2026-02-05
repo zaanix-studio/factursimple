@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'calendrier-reforme-facture-electronique-2026',
+    title: 'Calendrier Facture Électronique 2026 : Toutes les Dates Clés',
+    excerpt: 'Calendrier complet de la réforme facturation électronique 2026-2027. Dates obligatoires pour auto-entrepreneurs, micro-entreprises, PME. Ne manquez aucune échéance.',
+    date: '2026-02-05',
+    readTime: '7 min',
+    category: 'Calendrier',
+  },
+  {
     slug: 'alternative-pennylane-pas-cher',
     title: 'Alternative Pennylane Pas Cher 2026 : Comparatif pour Auto-Entrepreneurs',
     excerpt: 'Pennylane à 99€/mois ? Découvrez les alternatives moins chères pour les auto-entrepreneurs. Comparatif complet : Tiime, Henrri, Freebe, FacturSimple.',
