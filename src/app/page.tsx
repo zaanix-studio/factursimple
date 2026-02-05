@@ -11,6 +11,7 @@ import {
   IconCalculator,
   IconChecklist,
   IconArrowRight,
+  IconScale,
 } from "@tabler/icons-react"
 
 export default function Home() {
@@ -99,6 +100,12 @@ export default function Home() {
                     <Link href="/checklist-2026" className="gap-2">
                       <IconChecklist className="h-4 w-4" />
                       Checklist
+                    </Link>
+                  </Button>
+                  <Button variant="secondary" className="rounded-full" asChild>
+                    <Link href="/generateur-cgv" className="gap-2">
+                      <IconScale className="h-4 w-4" />
+                      CGV
                     </Link>
                   </Button>
                 </div>
