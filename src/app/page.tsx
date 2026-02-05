@@ -12,6 +12,7 @@ import {
   IconChecklist,
   IconArrowRight,
   IconScale,
+  IconCalendarStats,
 } from "@tabler/icons-react"
 
 export default function Home() {
@@ -108,6 +109,12 @@ export default function Home() {
                       CGV
                     </Link>
                   </Button>
+                  <Button variant="secondary" className="rounded-full" asChild>
+                    <Link href="/recapitulatif-annuel" className="gap-2">
+                      <IconCalendarStats className="h-4 w-4" />
+                      Récap Annuel
+                    </Link>
+                  </Button>
                 </div>
               </div>
             </div>
@@ -133,6 +140,7 @@ export default function Home() {
             <nav className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
               <Link href="/generateur-facture" className="transition-colors hover:text-foreground">Factures</Link>
               <Link href="/generateur-devis" className="transition-colors hover:text-foreground">Devis</Link>
+              <Link href="/recapitulatif-annuel" className="transition-colors hover:text-foreground">Récap Annuel</Link>
               <Link href="/blog" className="transition-colors hover:text-foreground">Blog</Link>
             </nav>
             <p className="text-sm text-muted-foreground">© 2026 FacturSimple</p>
