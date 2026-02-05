@@ -13,6 +13,7 @@ import {
   IconArrowRight
 } from "@tabler/icons-react"
 
+// Updated 2026-02-05 - Force redeploy
 export const metadata: Metadata = {
   title: 'Outils Gratuits Auto-Entrepreneur 2026 | FacturSimple',
   description: 'Outils gratuits pour auto-entrepreneurs : générateurs de factures, devis, CGV, calculateurs TVA, pénalités de retard. Préparez-vous à la facturation électronique 2026.',
