@@ -11,13 +11,21 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'facturation-electronique-therapeute-bien-etre',
+    title: 'Facturation Électronique Thérapeutes & Praticiens Bien-être 2026',
+    excerpt: 'Guide complet pour naturopathes, sophrologues, hypnothérapeutes, réflexologues et praticiens du bien-être. Clients particuliers, e-reporting et conformité 2026.',
+    date: '2026-02-06',
+    readTime: '10 min',
+    category: 'Guide Métier',
+    featured: true,
+  },
+  {
     slug: 'facturation-electronique-redacteur-web-copywriter',
     title: 'Facturation Électronique Rédacteur Web & Copywriter 2026',
     excerpt: 'Guide complet pour rédacteurs web, copywriters, ghostwriters et créateurs de contenu. Cession de droits, plateformes (Malt, TextBroker), clients internationaux et conformité.',
     date: '2026-02-06',
     readTime: '12 min',
     category: 'Guide Métier',
-    featured: true,
   },
   {
     slug: 'facturation-electronique-clients-etrangers',

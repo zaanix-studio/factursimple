@@ -72,6 +72,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // New articles (Feb 6, 2026)
     {
+      url: `${baseUrl}/blog/facturation-electronique-therapeute-bien-etre`,
+      lastModified: new Date('2026-02-06'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/blog/facturation-electronique-redacteur-web-copywriter`,
       lastModified: new Date('2026-02-06'),
       changeFrequency: 'monthly',
