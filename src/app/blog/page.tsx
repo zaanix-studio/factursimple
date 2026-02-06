@@ -11,13 +11,21 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'facture-proforma-auto-entrepreneur',
+    title: 'Facture Proforma Auto-Entrepreneur : Guide Complet 2026',
+    excerpt: 'Qu\'est-ce qu\'une facture proforma ? Différence avec un devis, quand l\'utiliser, mentions obligatoires et modèle gratuit pour les auto-entrepreneurs.',
+    date: '2026-02-06',
+    readTime: '8 min',
+    category: 'Guide Pratique',
+    featured: true,
+  },
+  {
     slug: 'sanctions-facturation-electronique',
     title: 'Sanctions Facturation Électronique 2026 : Ce Que Vous Risquez',
     excerpt: 'Quelles sanctions en cas de non-conformité à la facturation électronique obligatoire ? Amendes de 15€ à 250 000€, contrôles fiscaux... Tout savoir pour les auto-entrepreneurs.',
     date: '2026-02-06',
     readTime: '10 min',
     category: 'Réglementation',
-    featured: true,
   },
   {
     slug: 'reformes-auto-entrepreneur-2026',

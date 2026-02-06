@@ -181,5 +181,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Article #19 - Feb 6, 2026
+    {
+      url: `${baseUrl}/blog/facture-proforma-auto-entrepreneur`,
+      lastModified: new Date('2026-02-06'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
   ]
 }
