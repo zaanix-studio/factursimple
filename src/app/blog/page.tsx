@@ -60,6 +60,14 @@ const articles = [
     category: 'Guide Métier',
   },
   {
+    slug: 'facturation-electronique-traducteur-interprete',
+    title: 'Traducteurs & Interprètes : Préparez la Facturation Électronique 2026',
+    excerpt: 'Guide complet pour traducteurs, interprètes et linguistes freelances. Clients internationaux, agences, tarifs au mot et conformité 2026.',
+    date: '2026-02-06',
+    readTime: '11 min',
+    category: 'Guide Métier',
+  },
+  {
     slug: 'facturation-electronique-developpeur-freelance',
     title: 'Développeurs Freelance : Préparez la Facturation Électronique 2026',
     excerpt: 'Guide complet pour développeurs web, devs full-stack, DevOps et freelances IT. Clients internationaux, plateformes (Malt, Comet), récurrence et conformité 2026.',
