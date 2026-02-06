@@ -100,6 +100,14 @@ const articles = [
     category: 'Guide Métier',
   },
   {
+    slug: 'facturation-electronique-osteopathe-kinesitherapeute',
+    title: 'Ostéopathe & Kinésithérapeute : Guide Facturation Électronique 2026',
+    excerpt: 'Guide complet pour ostéopathes et kinésithérapeutes. Consultations patients, mutuelles, vacations entreprises, SESAM-Vitale et conformité 2026.',
+    date: '2026-02-06',
+    readTime: '13 min',
+    category: 'Guide Métier',
+  },
+  {
     slug: 'facturation-electronique-musicien-artiste',
     title: 'Facturation Électronique Musicien & Artiste : Guide 2026',
     excerpt: 'Guide complet pour musiciens, artistes et intermittents du spectacle. Cachets GUSO, cours de musique, animations, compositions et conformité 2026.',

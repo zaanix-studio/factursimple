@@ -393,6 +393,26 @@ These are startup/scale-up focused but members may know auto-entrepreneurs:
 - **Notable mentions:** Crème de la Crème Slack, freelance coworking networks
 - **Action:** Follow up on specific communities mentioned
 
+### BTP / Construction Communities (NEW - Feb 6 PM)
+
+#### 34. **Batiforum**
+- **URL:** http://batiforum.com/
+- **Type:** French BTP professionals forum
+- **Status:** ⏳ To join
+- **Why relevant:** 
+  - Forum for construction professionals (artisans plombiers, électriciens, maçons...)
+  - Active discussions on BTP regulations and practices
+  - Many artisans in micro-entreprise status
+  - We already have plombier/électricien guide ready
+- **Action:** Join forum, engage on admin/compliance topics, share 2026 reform info
+
+#### 35. **OPPBTP Entraide Platform**
+- **URL:** preventionbtp.fr (via lemondedesartisans.fr mention)
+- **Type:** Safety & compliance platform with forum
+- **Status:** ⏳ To explore
+- **Why relevant:** OPPBTP serves all BTP professionals; discussions include business practices
+- **Action:** Explore community features
+
 ### Accounting/Expert-Comptable Communities (NEW - Feb 6 PM)
 
 #### 32. **Compta Online**
