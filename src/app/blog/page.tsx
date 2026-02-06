@@ -36,6 +36,14 @@ const articles = [
     category: 'Guide Métier',
   },
   {
+    slug: 'facturation-electronique-menage-aide-domicile',
+    title: 'Ménage & Aide à Domicile : Facturation Électronique 2026',
+    excerpt: 'Guide complet pour aides ménagères et services à domicile. CESU, avance immédiate, nettoyage bureaux, conciergerie AirBnB et conformité 2026.',
+    date: '2026-02-07',
+    readTime: '10 min',
+    category: 'Guide Métier',
+  },
+  {
     slug: 'facturation-electronique-influenceur-createur-contenu',
     title: 'Influenceurs & Créateurs de Contenu : Guide Facturation 2026',
     excerpt: 'YouTubers, streamers Twitch, TikTokeurs, instagrameurs : ce qui change pour votre facturation. Revenus plateformes, partenariats marques et conformité.',
