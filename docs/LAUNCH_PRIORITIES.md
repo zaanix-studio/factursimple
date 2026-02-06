@@ -53,7 +53,7 @@
 
 | Asset | Count | Status |
 |-------|-------|--------|
-| SEO blog articles | 24 | ✅ Code ready, waiting deploy |
+| SEO blog articles | 26 | ✅ Code ready, waiting deploy |
 | Free tools | 8 | ✅ Code ready, waiting deploy |
 | X threads | 3 | ✅ Ready to post |
 | LinkedIn posts | 2 | ✅ Ready to post |
