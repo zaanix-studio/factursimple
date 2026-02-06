@@ -92,6 +92,14 @@ const articles = [
     category: 'Guide Métier',
   },
   {
+    slug: 'facturation-electronique-photographe-videaste',
+    title: 'Photographe & Vidéaste : Guide Facturation Électronique 2026',
+    excerpt: 'Guide complet pour photographes et vidéastes auto-entrepreneurs. Mariages, portraits, corporate, packshots e-commerce, droits d\'auteur et conformité 2026.',
+    date: '2026-02-06',
+    readTime: '12 min',
+    category: 'Guide Métier',
+  },
+  {
     slug: 'facturation-electronique-formateur-professionnel',
     title: 'Formateur Professionnel : Guide Facturation Électronique 2026',
     excerpt: 'Guide complet pour formateurs indépendants. OPCO, Qualiopi, sous-traitance OF, CPF, exonération TVA et conformité 2026. Attention : vous êtes très concerné !',
