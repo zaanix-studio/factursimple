@@ -1,6 +1,6 @@
 # FacturSimple - Community Outreach & Validation
 
-*Last updated: 2026-02-05*
+*Last updated: 2026-02-06*
 
 ## 🎯 Goal
 Validate FacturSimple with real French auto-entrepreneurs before building more features.
@@ -259,6 +259,71 @@ These are startup/scale-up focused but members may know auto-entrepreneurs:
 - **Members:** 100s of startups (Payfit, Doctolib, etc.)
 - **Why relevant:** Ops people help onboard vendors/freelancers, influence tool choices
 - **Action:** Find invite link, engage on admin/tooling topics
+
+### High-Value Slack Communities (Added Feb 6 via Slofile research)
+
+#### 21. **Freelance France** ⭐ HIGH PRIORITY
+- **Slofile:** slofile.com/slack/freelancefrance
+- **Members:** 1,310+ freelances
+- **Type:** Slack community for French freelancers
+- **Why relevant:** DIRECTLY our target audience - freelancers needing invoicing tools
+- **Action:** Join ASAP, engage on admin/invoicing topics, share 2026 reform info
+
+#### 22. **French Startups Slack**
+- **Slofile:** slofile.com/slack/frenchstartups
+- **Members:** 708 members
+- **Type:** Networking, conseils, beta testers
+- **Why relevant:** Startups work with freelancers; could recommend FacturSimple
+- **Action:** Join, offer to be a resource on e-invoicing compliance
+
+#### 23. **French Designers Club**
+- **Slofile:** slofile.com/slack/frenchdesigners
+- **Members:** 6,489 members (largest!)
+- **Type:** Designer community (many freelancers)
+- **Why relevant:** Designers = often freelancers/AE needing invoicing
+- **Action:** Join, engage on business/admin channels if they exist
+
+#### 24. **Kreative FR**
+- **Slofile:** slofile.com/slack/kreativefr
+- **Members:** 513 members
+- **Type:** Creative professionals (design, media, startups)
+- **Why relevant:** Creatives often work as AE/freelance
+- **Action:** Join, share e-invoicing prep content
+
+#### 25. **Regional Tech Communities**
+- **Comm-Montpellier:** 4,198 members (dev/meetup)
+- **LyonTechHub:** 1,580 members (tech community)
+- **MetsTechHub:** 168 members
+- **DijonTech:** 142 members
+- **Franche-Comté Tech:** 140 members
+- **Why relevant:** Regional communities = tighter trust, more likely to try local recommendations
+- **Action:** Join 1-2 largest, engage authentically
+
+### Additional Slack Communities (from freebe.me research)
+
+#### 26. **Crème de la Crème Slack**
+- **URL:** cremedelacreme.io
+- **Type:** Platform slack with freelance missions, admin channels
+- **Why relevant:** Active freelancers already using invoicing tools
+- **Action:** Join, look for admin/tools discussion channels
+
+#### 27. **Wemind Community**
+- **URL:** wemind.io (mutuelle for freelancers)
+- **Type:** Insurance provider community
+- **Why relevant:** Freelancers already discussing business admin topics
+- **Action:** Join if possible, engage on business prep topics
+
+#### 28. **La Base Tech**
+- **URL:** labase.tech
+- **Type:** Tech profiles engaged for the planet
+- **Why relevant:** Tech freelancers, sustainability-minded
+- **Action:** Join, could position FacturSimple's simplicity angle
+
+#### 29. **Remote Challenge by Comet**
+- **URL:** comet-freelance.typeform.com/to/wv5Q9J
+- **Type:** Remote work community
+- **Why relevant:** Remote freelancers = our target market
+- **Action:** Join, engage on business/admin topics
 
 ### Professional & Legal Communities (NEW - Feb 6)
 
