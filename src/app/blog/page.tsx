@@ -11,13 +11,21 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'facturation-electronique-vtc-chauffeur-prive',
+    title: 'Facturation Électronique VTC et Chauffeur Privé : Guide 2026',
+    excerpt: 'Chauffeurs VTC Uber, Bolt, Kapten, Heetch : vos obligations 2026 expliquées. Mandat de facturation, e-reporting, factures fournisseurs et outils adaptés.',
+    date: '2026-02-06',
+    readTime: '12 min',
+    category: 'Guide Métier',
+    featured: true,
+  },
+  {
     slug: 'facturation-electronique-livreur-uber-deliveroo',
     title: 'Facturation Électronique Livreur 2026 : Guide Uber Eats, Deliveroo',
     excerpt: 'Livreurs indépendants : mandat de facturation, e-reporting, obligations 2026. Ce qui change vraiment pour les coursiers Uber, Deliveroo, Just Eat.',
     date: '2026-02-06',
     readTime: '10 min',
     category: 'Guide Métier',
-    featured: true,
   },
   {
     slug: 'facturation-electronique-consultant-coach',
