@@ -393,6 +393,27 @@ These are startup/scale-up focused but members may know auto-entrepreneurs:
 - **Notable mentions:** Crème de la Crème Slack, freelance coworking networks
 - **Action:** Follow up on specific communities mentioned
 
+### Accounting/Expert-Comptable Communities (NEW - Feb 6 PM)
+
+#### 32. **Compta Online**
+- **URL:** https://www.compta-online.com/
+- **Type:** Major French accounting community (forum + resources)
+- **Status:** ⏳ To join
+- **Why relevant:** 
+  - THE reference community for French accountants
+  - Active discussions on e-invoicing reform
+  - Accountants influence which tools their AE clients use
+  - B2B referral potential (accountant partner program)
+- **Key insight:** Recent content on "Campagne déclarative 2026" - actively discussing reform
+- **Action:** Create account, engage on e-invoicing threads, position as resource for their AE clients
+
+#### 33. **Forum des Professions Libérales**
+- **URL:** https://forum-des-professions-liberales.fr/
+- **Type:** Directory + forum for liberal professions (including accountants)
+- **Status:** ⏳ To explore
+- **Why relevant:** Professionals who often work with or advise micro-entrepreneurs
+- **Action:** Explore forum sections, look for e-invoicing discussions
+
 ---
 
 ## 📌 Next Steps
