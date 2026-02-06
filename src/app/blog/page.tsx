@@ -52,6 +52,14 @@ const articles = [
     category: 'Guide Métier',
   },
   {
+    slug: 'facturation-electronique-coach-sportif-personal-trainer',
+    title: 'Coach Sportif & Personal Trainer : Guide Facturation 2026',
+    excerpt: 'Guide complet pour coachs sportifs, personal trainers, préparateurs physiques. Cours particuliers, coaching entreprise, salles de sport et conformité 2026.',
+    date: '2026-02-06',
+    readTime: '12 min',
+    category: 'Guide Métier',
+  },
+  {
     slug: 'facturation-electronique-therapeute-bien-etre',
     title: 'Facturation Électronique Thérapeutes & Praticiens Bien-être 2026',
     excerpt: 'Guide complet pour naturopathes, sophrologues, hypnothérapeutes, réflexologues et praticiens du bien-être. Clients particuliers, e-reporting et conformité 2026.',
