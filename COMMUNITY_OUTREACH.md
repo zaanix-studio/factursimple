@@ -76,9 +76,24 @@ Validate FacturSimple with real French auto-entrepreneurs before building more f
 
 ---
 
+#### 8. **autoentrepreneur.fr Forum** (NEW - Feb 6)
+- **URL:** https://autoentrepreneur.fr/forum/
+- **Type:** Dedicated AE forum
+- **Status:** ⏳ To join
+- **Why:** Another active auto-entrepreneur community, parallel to ae.fr
+- **Action:** Create account, engage on relevant threads
+
+#### 9. **Pragmatic Entrepreneurs Forum** (NEW - Feb 6)
+- **URL:** https://forum.pragmaticentrepreneurs.com/
+- **Type:** French entrepreneur forum (Discourse-based)
+- **Status:** ⏳ To join
+- **Why:** Tech-savvy entrepreneurs, likely early adopters
+- **Topics:** Business Model, Lean Startup, Growth Hacking, Admin/Legal/Compta
+- **Action:** Join, find accounting/invoicing threads
+
 ### Medium Priority (General entrepreneur communities)
 
-#### 8. **Facebook Groups**
+#### 10. **Facebook Groups**
 - **Groups to find:**
   - "Auto-entrepreneurs et Micro-entrepreneurs"
   - "Auto-entrepreneurs France"
