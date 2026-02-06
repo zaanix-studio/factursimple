@@ -70,7 +70,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
-    // New SEO-optimized articles (Feb 4, 2026)
+    // New articles (Feb 6, 2026)
+    {
+      url: `${baseUrl}/blog/pilote-dgfip-facturation-electronique`,
+      lastModified: new Date('2026-02-06'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    // SEO-optimized articles (Feb 4-5, 2026)
     {
       url: `${baseUrl}/blog/factur-x-format`,
       lastModified: new Date('2026-02-04'),

@@ -11,13 +11,21 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'pilote-dgfip-facturation-electronique',
+    title: 'Pilote DGFIP 2026 : Le Test en Conditions Réelles de la Facturation Électronique',
+    excerpt: 'La DGFIP lance un projet pilote en conditions réelles. Découvrez les outils officiels (quiz impots.gouv, vidéo explicative) pour vous préparer.',
+    date: '2026-02-06',
+    readTime: '7 min',
+    category: 'Actualité',
+    featured: true,
+  },
+  {
     slug: 'facture-proforma-auto-entrepreneur',
     title: 'Facture Proforma Auto-Entrepreneur : Guide Complet 2026',
     excerpt: 'Qu\'est-ce qu\'une facture proforma ? Différence avec un devis, quand l\'utiliser, mentions obligatoires et modèle gratuit pour les auto-entrepreneurs.',
     date: '2026-02-06',
     readTime: '8 min',
     category: 'Guide Pratique',
-    featured: true,
   },
   {
     slug: 'sanctions-facturation-electronique',
