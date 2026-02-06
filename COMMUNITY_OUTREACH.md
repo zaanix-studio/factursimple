@@ -45,7 +45,18 @@ Validate FacturSimple with real French auto-entrepreneurs before building more f
 
 ### New Discovery (Active forum threads - Feb 2026)
 
-#### 5. **CommentCaMarche Forum**
+#### 5. **Droit-Finances CommentCaMarche - Auto-Entrepreneur Section** (NEW - Feb 6)
+- **URL:** https://droit-finances.commentcamarche.com/forum/auto-entrepreneur-17
+- **Type:** Major Q&A forum with 5,000+ AE threads
+- **Status:** ⏳ To engage
+- **Why:** Very active forum, recent threads include:
+  - "Logiciel/outil de facturation" - user seeking free invoicing tools (Henrii disappointment)
+  - 2026 e-invoicing questions starting to appear
+  - High volume of practical AE questions daily
+- **Key insight:** Active thread asking for invoicing tool recommendations - perfect opportunity
+- **Action:** Create account, answer questions helpfully, establish expertise
+
+#### 6. **CommentCaMarche Forum - General**
 - **URL:** https://forums.commentcamarche.net/forum/affich-38161348-la-facturation-sera-bientot-payante-pour-toutes-les-entreprises-meme-les-auto-entrepreneurs
 - **Type:** General forum with active AE discussion
 - **Status:** ⏳ Can reply (no registration needed?)
