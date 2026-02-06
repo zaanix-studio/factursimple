@@ -136,13 +136,27 @@ Validate FacturSimple with real French auto-entrepreneurs before building more f
 
 ### Medium Priority (General entrepreneur communities)
 
-#### 13. **Facebook Groups**
-- **Groups to find:**
-  - "Auto-entrepreneurs et Micro-entrepreneurs"
-  - "Auto-entrepreneurs France"
-  - "Freelance France"
-- **Status:** ⏳ Need FB access
-- **Action:** Search and join relevant groups, share value first
+#### 13. **Facebook Groups** (Research Complete - Feb 6)
+
+**Top Priority - Largest AE Communities:**
+
+| Group | Members | Notes |
+|-------|---------|-------|
+| **La communauté des auto-entrepreneurs** | 61,000+ | Owned by Portail Auto-Entrepreneur |
+| **Entraide auto/micro-entrepreneurs** | 54,000+ | Linked to HelloMyBusiness |
+| **Coup de Pouce Auto-Entrepreneur** | Large | Claimed as "largest AE community" by auto-entrepreneur.fr |
+| **French Startups** | 35,400+ | Broader startup community |
+| **FNAE Facebook group** | Members-only | For FNAE (Fédération Nationale Auto-Entrepreneurs) subscribers |
+
+**URLs:**
+- La communauté des auto-entrepreneurs: https://www.facebook.com/groups/communaute.autoentrepreneurs
+- Entraide auto/micro-entrepreneurs: https://www.facebook.com/groups/633636863472853
+- French Startups: https://www.facebook.com/groups/frenchstartups
+
+**Status:** ⏳ Need FB access
+**Why:** Massive combined reach (150K+ members), active discussions about tools/compliance
+**Key insight:** These groups ban auto-promotion but welcome helpful advice - must lead with value
+**Action:** Join, engage authentically for 2+ weeks, then share resources when relevant
 
 #### 6. **LinkedIn Groups**
 - **Groups to find:**
