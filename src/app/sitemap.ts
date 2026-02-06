@@ -174,5 +174,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Article #18 - Feb 6, 2026
+    {
+      url: `${baseUrl}/blog/sanctions-facturation-electronique`,
+      lastModified: new Date('2026-02-06'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
   ]
 }

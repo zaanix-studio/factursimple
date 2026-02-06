@@ -11,13 +11,21 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'sanctions-facturation-electronique',
+    title: 'Sanctions Facturation Électronique 2026 : Ce Que Vous Risquez',
+    excerpt: 'Quelles sanctions en cas de non-conformité à la facturation électronique obligatoire ? Amendes de 15€ à 250 000€, contrôles fiscaux... Tout savoir pour les auto-entrepreneurs.',
+    date: '2026-02-06',
+    readTime: '10 min',
+    category: 'Réglementation',
+    featured: true,
+  },
+  {
     slug: 'reformes-auto-entrepreneur-2026',
     title: 'Toutes les Réformes Auto-Entrepreneur 2026 : Le Guide Complet',
     excerpt: 'Facturation électronique, hausse des cotisations, formation CPF, REP... Tous les changements pour les micro-entrepreneurs en 2026 et comment vous y préparer.',
     date: '2026-02-05',
     readTime: '12 min',
     category: 'Guide Complet',
-    featured: true,
   },
   {
     slug: 'calendrier-reforme-facture-electronique-2026',
