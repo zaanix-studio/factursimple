@@ -20,6 +20,14 @@ const articles = [
     featured: true,
   },
   {
+    slug: 'facturation-electronique-influenceur-createur-contenu',
+    title: 'Influenceurs & Créateurs de Contenu : Guide Facturation 2026',
+    excerpt: 'YouTubers, streamers Twitch, TikTokeurs, instagrameurs : ce qui change pour votre facturation. Revenus plateformes, partenariats marques et conformité.',
+    date: '2026-02-06',
+    readTime: '11 min',
+    category: 'Guide Métier',
+  },
+  {
     slug: 'facturation-electronique-therapeute-bien-etre',
     title: 'Facturation Électronique Thérapeutes & Praticiens Bien-être 2026',
     excerpt: 'Guide complet pour naturopathes, sophrologues, hypnothérapeutes, réflexologues et praticiens du bien-être. Clients particuliers, e-reporting et conformité 2026.',
