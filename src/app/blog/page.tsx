@@ -11,13 +11,21 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'facturation-electronique-livreur-uber-deliveroo',
+    title: 'Facturation Électronique Livreur 2026 : Guide Uber Eats, Deliveroo',
+    excerpt: 'Livreurs indépendants : mandat de facturation, e-reporting, obligations 2026. Ce qui change vraiment pour les coursiers Uber, Deliveroo, Just Eat.',
+    date: '2026-02-06',
+    readTime: '10 min',
+    category: 'Guide Métier',
+    featured: true,
+  },
+  {
     slug: 'facturation-electronique-consultant-coach',
     title: 'Facturation Électronique Consultant et Coach 2026 : Le Guide Complet',
     excerpt: 'Consultants, coachs, formateurs... Guide spécial prestations de services intellectuels : acomptes, B2B vs B2C, e-reporting et conformité 2026.',
     date: '2026-02-06',
     readTime: '8 min',
     category: 'Guide Métier',
-    featured: true,
   },
   {
     slug: 'facturation-electronique-artisan-btp',
