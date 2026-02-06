@@ -11,13 +11,21 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'facturation-electronique-redacteur-web-copywriter',
+    title: 'Facturation Électronique Rédacteur Web & Copywriter 2026',
+    excerpt: 'Guide complet pour rédacteurs web, copywriters, ghostwriters et créateurs de contenu. Cession de droits, plateformes (Malt, TextBroker), clients internationaux et conformité.',
+    date: '2026-02-06',
+    readTime: '12 min',
+    category: 'Guide Métier',
+    featured: true,
+  },
+  {
     slug: 'facturation-electronique-clients-etrangers',
     title: 'Clients Étrangers et Facturation Électronique 2026 : Êtes-vous Vraiment Concerné ?',
     excerpt: 'Freelance avec clients internationaux (USA, UE, plateformes étrangères) ? Bonne nouvelle : vous n\'êtes probablement PAS concerné par l\'e-invoicing. Explications.',
     date: '2026-02-06',
     readTime: '10 min',
     category: 'International',
-    featured: true,
   },
   {
     slug: 'facturation-electronique-agent-commercial',
