@@ -72,6 +72,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // New articles (Feb 6, 2026)
     {
+      url: `${baseUrl}/blog/facturation-electronique-consultant-coach`,
+      lastModified: new Date('2026-02-06'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/facturation-electronique-artisan-btp`,
+      lastModified: new Date('2026-02-06'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/blog/pilote-dgfip-facturation-electronique`,
       lastModified: new Date('2026-02-06'),
       changeFrequency: 'monthly',

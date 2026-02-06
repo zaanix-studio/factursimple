@@ -11,13 +11,21 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'facturation-electronique-consultant-coach',
+    title: 'Facturation Électronique Consultant et Coach 2026 : Le Guide Complet',
+    excerpt: 'Consultants, coachs, formateurs... Guide spécial prestations de services intellectuels : acomptes, B2B vs B2C, e-reporting et conformité 2026.',
+    date: '2026-02-06',
+    readTime: '8 min',
+    category: 'Guide Métier',
+    featured: true,
+  },
+  {
     slug: 'facturation-electronique-artisan-btp',
     title: 'Facturation Électronique Artisan BTP 2026 : Le Guide Complet',
     excerpt: 'Plombiers, électriciens, maçons, peintres... Guide spécial artisans du bâtiment : devis, factures de situation, acomptes, retenue de garantie et conformité 2026.',
     date: '2026-02-06',
     readTime: '12 min',
     category: 'Guide Métier',
-    featured: true,
   },
   {
     slug: 'pilote-dgfip-facturation-electronique',
