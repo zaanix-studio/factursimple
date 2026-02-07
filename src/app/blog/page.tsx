@@ -124,6 +124,14 @@ const articles = [
     category: 'Guide Métier',
   },
   {
+    slug: 'facturation-electronique-community-manager-social-media',
+    title: 'Community Manager & Social Media Manager : Facturation 2026',
+    excerpt: 'Guide complet pour CM et social media managers freelance. Clients B2B (marques, agences, startups), plateformes Malt/CDLC, formation et conformité 2026.',
+    date: '2026-02-07',
+    readTime: '8 min',
+    category: 'Guide Métier',
+  },
+  {
     slug: 'facturation-electronique-coach-sportif-personal-trainer',
     title: 'Coach Sportif & Personal Trainer : Guide Facturation 2026',
     excerpt: 'Guide complet pour coachs sportifs, personal trainers, préparateurs physiques. Cours particuliers, coaching entreprise, salles de sport et conformité 2026.',
