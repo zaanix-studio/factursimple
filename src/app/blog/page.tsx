@@ -20,6 +20,22 @@ const articles = [
     featured: true,
   },
   {
+    slug: 'facturation-electronique-estheticienne-domicile',
+    title: 'Esthéticienne à Domicile : Facturation Électronique 2026',
+    excerpt: 'Guide complet pour esthéticiennes, prothésistes ongulaires et maquilleuses à domicile. Clients particuliers, EHPAD, sous-traitance salon et conformité 2026.',
+    date: '2026-02-07',
+    readTime: '11 min',
+    category: 'Guide Métier',
+  },
+  {
+    slug: 'facturation-electronique-chef-domicile-traiteur',
+    title: 'Chef à Domicile & Traiteur : Facturation Électronique 2026',
+    excerpt: 'Guide complet pour chefs à domicile, traiteurs et cuisiniers événementiels. Mariages, team buildings, cours de cuisine et conformité 2026.',
+    date: '2026-02-07',
+    readTime: '12 min',
+    category: 'Guide Métier',
+  },
+  {
     slug: 'facturation-electronique-agent-securite',
     title: 'Agent de Sécurité Indépendant : Facturation Électronique 2026',
     excerpt: 'Guide complet pour agents de sécurité auto-entrepreneurs. SSIAP, surveillance, événementiel, sous-traitance et conformité 2026.',
