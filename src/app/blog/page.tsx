@@ -20,6 +20,14 @@ const articles = [
     featured: true,
   },
   {
+    slug: 'facturation-electronique-avocat-juriste',
+    title: 'Avocat & Juriste Indépendant : Facturation Électronique 2026',
+    excerpt: 'Guide complet pour avocats et juristes freelance. Honoraires, CARPA, collaboration libérale, droit des affaires vs droit de la famille et conformité 2026.',
+    date: '2026-02-07',
+    readTime: '14 min',
+    category: 'Guide Métier',
+  },
+  {
     slug: 'facturation-electronique-estheticienne-domicile',
     title: 'Esthéticienne à Domicile : Facturation Électronique 2026',
     excerpt: 'Guide complet pour esthéticiennes, prothésistes ongulaires et maquilleuses à domicile. Clients particuliers, EHPAD, sous-traitance salon et conformité 2026.',
