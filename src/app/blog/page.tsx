@@ -52,6 +52,14 @@ const articles = [
     category: 'Guide Métier',
   },
   {
+    slug: 'facturation-electronique-secretaire-independante-assistante',
+    title: 'Secrétaire Indépendante & Assistante Administrative : Facturation 2026',
+    excerpt: 'Guide complet pour secrétaires indépendantes et assistantes virtuelles. TPE, PME, professions libérales, télésecrétariat et conformité 2026.',
+    date: '2026-02-07',
+    readTime: '8 min',
+    category: 'Guide Métier',
+  },
+  {
     slug: 'facturation-electronique-wedding-planner-organisateur-evenements',
     title: 'Wedding Planner & Organisateur d\'événements : Facturation 2026',
     excerpt: 'Guide complet pour wedding planners et organisateurs d\'événements. Mariages (B2C), événements corporate (B2B), commissions prestataires et conformité 2026.',
