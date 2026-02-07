@@ -1,6 +1,6 @@
 # FacturSimple - Community Outreach & Validation
 
-*Last updated: 2026-02-06*
+*Last updated: 2026-02-07*
 
 ## 🎯 Goal
 Validate FacturSimple with real French auto-entrepreneurs before building more features.
@@ -348,6 +348,37 @@ These are startup/scale-up focused but members may know auto-entrepreneurs:
 - **Type:** Remote work community
 - **Why relevant:** Remote freelancers = our target market
 - **Action:** Join, engage on business/admin topics
+
+#### 36. **FreelanceTalks by FreelanceRepublik** (NEW - Feb 7)
+- **URL:** freelancerepublik.com/freelance
+- **Type:** Slack community for developers/tech freelancers
+- **Members:** Active dev freelance community
+- **Why relevant:** Tech freelancers often work as AE, need invoicing tools
+- **Action:** Join, engage on business admin topics
+
+#### 37. **Design System France** (NEW - Feb 7)
+- **URL:** designsystemsfrance.org
+- **Type:** Slack for Product Designers
+- **Why relevant:** Designers frequently work as freelance/AE
+- **Action:** Join, look for admin/business channels
+
+#### 38. **The Cacatoès Theory** (NEW - Feb 7)
+- **URL:** thecacatoestheory.slack.com
+- **Type:** Slack for UI designers
+- **Why relevant:** UI designers = often freelance AE needing invoicing solutions
+- **Note:** Invite link: thecacatoestheory.slack.com/join/shared_invite/zt-y1nq6guo
+- **Action:** Join, engage on business topics when they arise
+
+#### 39. **FLIPA UX** (NEW - Feb 7)
+- **Type:** Slack focused on UX professionals
+- **Why relevant:** UX freelancers, often AE status
+- **Action:** Find invite link, join and engage
+
+#### 40. **Les Agilistes** (NEW - Feb 7)
+- **Type:** Francophone agile practitioners Slack
+- **Members:** 990+ members
+- **Why relevant:** Agile coaches/consultants often work freelance
+- **Action:** Join, look for business/admin channels
 
 ### Photography Communities (NEW - Feb 6 PM)
 
